@@ -2,21 +2,63 @@
 <html>
 
 <head>
-    <title>Contact</title>
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Dave Bokil</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="About">About</a></li>
-            <li><a href="Portfolio">Portfolio</a></li>
-            <li><a href="Contact">Contact</a></li>
-        </ul>
-    </nav>
-<footer>Copyright &copy; W3Schools.com</footer>
+    <!-- Wrapper Div -->
+    <div class="wrapper">
+        <!-- Div for header -->
+        <div class="header">
+            <div id="leftspace">
+                &nbsp;
+            </div>
+            <div id="name">
+                Dave Bokil
+            </div>
+            <div id="nav">
+                <a style="text-decoration: none;" href="index.html">About</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+                <a style="text-decoration: none;" href="portfolio.html">Portfolio</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+                <a style="text-decoration: none;" href="contact.html">Contact</a>
+            </div>
+        </div>
+        <!-- About Me Div -->
+        <div id="contactdiv">
+            <h1>Contact</h1>
+            <hr>
+            <form action="form.php">
+                Name
+                <br>
+                <input type="text" name="firstname" placeholder="John Smith">
+                <br> Email
+                <br>
+                <input type="text" name="email" placeholder="example@gmail.com">
+                <br> Message
+                <br>
+                <input style="height: 150px;" type="text" name="message" value="">
+                <br>
+                <input id="button" type="submit" value="Submit">
+            </form>
+        </div>
+        <!-- Connect With Me Div -->
+        <div id="connectwithme">
+            <h1>Connect With Me</h1>
+            <hr>
+            <a href="https://github.com/davebokil">
+                <img src="assets/images/github.png" height="100" width="100" alt="Github">
+            </a>
+            <a href="https://www.linkedin.com/in/davebokil">
+                <img src="assets/images/in.png" height="100" width="100" alt="LinkedIn">
+            </a>
+            <a href="http://stackoverflow.com/users/7450830/dave-bokil">
+                <img src="assets/images/so.png" height="100" width="100" alt="Stack Overflow">
+            </a>
+        </div>
+    </div>
+    <br>
+    <!-- start of footer div -->
+    <footer>&copy; Copyright 2017 Dave Bokil</footer>
 </body>
 
 </html>

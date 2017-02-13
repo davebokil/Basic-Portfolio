@@ -1,87 +1,52 @@
 <!DOCTYPE html>
 <html>
-<!-- this is the title of the page -->
 
 <head>
-    <title>Index</title>
+    <title>Dave Bokil</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<!-- CSS Start -->
-<style type="text/css">
-/*Making a div for the header portion of the page*/
-
-#header {
-    width: 100%;
-    height: 100px;
-}
-
-.container {
-    float: left;
-    color: white;
-    height: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: #4aaaa5;
-}
-
-.nav {
-    float: right;
-    height: 50px;
-    text-align: center;
-    width: 50%;
-    padding-top: 10px;
-    border-color: #dddddd;
-    border-style: solid;
-}
-
-.aboutme {
-    float: left;
-    width: 50%;
-    border-color: #dddddd;
-    border-style: solid;
-}
-
-.connect {
-    float: right;
-    width: 30%;
-    border-color: #dddddd;
-    border-style: solid;
-}
-
-footer {
-    padding: 2em;
-    color: white;
-    background-color: #666666;
-    clear: left;
-    text-align: center;
-    border-top-style: solid;
-    border-top-color: #4aaaa5;
-    border-width: 10px;
-}
-</style>
 
 <body>
-    <div id="header">
-        <div class='container'>
-            <h1>Dave Bokil</h1>
+    <!-- Wrapper Div -->
+    <div class="wrapper">
+        <!-- Div for header -->
+        <div class="header">
+            <div id="leftspace">
+                &nbsp;
+            </div>
+            <div id="name">
+                Dave Bokil
+            </div>
+            <div id="nav">
+                <a style="text-decoration: none;" href="index.html">About</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+                <a style="text-decoration: none;" href="portfolio.html">Portfolio</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+                <a style="text-decoration: none;" href="contact.html">Contact</a>
+            </div>
         </div>
-        <div class="nav">        
-        <a href="about">About</a>
-        <a href="Portfolio">Portfolio</a>
-        <a href="Contact">Contact</a>
+        <!-- About Me Div -->
+        <div id="aboutme">
+            <h1>About Me</h1>
+            <hr>
+            <img src="assets/images/dave.jpg" alt="Dave Bokil" id="bioimage">
+            <p>The Beatles were an English rock band, formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential act of the rock era. </p>
+            <p>Rooted in skiffle, beat, and 1950s rock and roll, the Beatles later experimented with several musical styles, ranging from pop ballads and Indian music to psychedelia and hard rock, often incorporating classical elements and unconventional recording techniques in innovative ways.</p>
         </div>
+        <!-- Connect With Me Div -->
+        <div id="connectwithme">
+            <h1>Connect With Me</h1>
+            <hr>
+            <a href="https://github.com/davebokil">
+                <img src="assets/images/github.png" height="100" width="100" alt="Github">
+            </a>
+            <a href="https://www.linkedin.com/in/davebokil">
+                <img src="assets/images/in.png" height="100" width="100" alt="LinkedIn">
+            </a>
+            <a href="http://stackoverflow.com/users/7450830/dave-bokil">
+                <img src="assets/images/so.png" height="100" width="100" alt="Stack Overflow">
+            </a>
+        </div> 
     </div>
-    <hr>
-    <div class="aboutme">
-        <h1>About Me</h1>
-        <hr>
-        <p>The Beatles were an English rock band, formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential act of the rock era.[1] Rooted in skiffle, beat, and 1950s rock and roll, the Beatles later experimented with several musical styles, ranging from pop ballads and Indian music to psychedelia and hard rock, often incorporating classical elements and unconventional recording techniques in innovative ways. In the early 1960s, their enormous popularity first emerged as "Beatlemania", but as the group's music grew in sophistication, led by primary songwriters Lennon and McCartney, they came to be perceived as an embodiment of the ideals shared by the counterculture of the 1960s.</p>
-    </div>
-    <div class="connect">
-        <h1>Connect With Me</h1>
-        <hr>
-        <a href="Linkedin">Linkedin</a>
-    </div>
-    <br>
+    <!-- start of footer div -->
     <footer>&copy; Copyright 2017 Dave Bokil</footer>
 </body>
 
