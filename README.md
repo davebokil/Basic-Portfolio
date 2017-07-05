@@ -1,2 +1,3 @@
 # Basic-Portfolio
-Week 1 (Recommended) Assignment - That Portfolio Though...
+
+A basic portfolio website template created using HTML and CSS.
